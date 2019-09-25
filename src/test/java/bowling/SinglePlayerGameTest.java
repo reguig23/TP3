@@ -29,7 +29,9 @@ public class SinglePlayerGameTest {
 	@Test
 	public void testAllOnes() {
 		rollMany(20, 1);
+                System.out.println(game.score());
 		assertEquals(20, game.score());
+                
 	}
 
 	@Test
